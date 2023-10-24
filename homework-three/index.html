@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intrest Calculator</title>
+</head>
+<body>
+    <br>
+    <h1>Intrest Calculator</h1>
+   <style>
+        section {
+            background-color: lightgrey;
+            width: 30%;
+            padding: 3px;
+            
+            
+        }
+        section p{
+            text-align: center; 
+            justify-content: center;
+        }
+        
+        
+    </style>
+    <section>
+    
+    <p>
+    <label>Principle:</label>
+    <input type="number" id="prin"/><br/>
+    <label>Intrest Rate:</label>
+    <input type="number" id="rate"/><br/>
+    <label>Time</label>
+    <input type="number" id="time"><br/>
+    <input type="button" name="Calculate" onclick="calcIntrest()" id="button" value="Calculate"> 
+    </p>
+    
+   </section>
+</br>
+    <section>
+        <h1>Your Results</h1>
+        <p id="hidden">
+
+        </p>
+    </section>
+    <script src="java.js"></script>
+</body>
+</html>
