@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Mortgage Calculator</title>
+</head>
+<body>
+    <h1>Mortgage Calculator</h1>
+    <div>
+        <p>Input loan amount, interest rate like 9.3 or 10.2, and loan time in years.  If your loan time is less than 1 year, calculate the decimal to the tenth like 2/12 is 0.2</p>
+        <ul>
+            Loan Amount: <li><input type="number" id="loan"></li>
+            Interest Rate: <li><input type="number" id="interest"></li>
+            Loan Time: <li><input type="number" id="years"></li>
+        </ul>
+    </div>
+    <button id="bt1" onclick="mortgageCalc()">Calculate Monthly Payment</button>
+</br>
+    <p id="monthly"></p>
+</br>
+    <a href="main.html"><button>Main Page</button></a>
+    <script src="mortgageCalc.js"></script>
+</body>
+</html>
